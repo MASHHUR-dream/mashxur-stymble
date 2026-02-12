@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <header class="bg-gray-800 flex justify-between text-white item-center text-3xl sticky top-0 p-10">
+        <div class="text-5xl ">⚡MASHXUR ta'lim</div>
+
+        <div class="space-x-10">
+            <a href="index.html">Bosh sahifasi🎞</a>
+            <a href="courses.html">Kurslar</a>
+            <a href="teachers.html">O'qituvchilar</a>
+            <a href="contact.html">Contact📼</a>
+        </div>
+
+    </header>
+    <div class="bg-yellow-400 h-48 w-full pl-[450px] pt-[40px] text-white">
+        <h1 class="font-bold text-7xl">Bizbilan bog'laning</h1>
+        <p class="text-3xl">Zamonaviy kasblarni o'rganing va karyerangizni rivojlantiring</p>
+    </div>
+
+    <main class="max-6xl mx-auto bg-gray-800 min-h-screen">
+
+        <div class=" grid grid-cols-2">
+
+            <div class=" w-[500px] h-[1200px] bg-gray-700 rounded-lg m-12 mx-auto">
+                <h1 class="text-3xl text-white m-12"> Xabar qoldiring</h1>
+                <p class="text-white m-2"> Ismingiz</p>
+                <input placeholder="Ismingizni qoldiring" class="w-96 m-2 rounded-lg h-12 bg-gray-500 text-white">
+
+                <div class="rounded-lg m-12 mx-auto">
+                    <p class="text-white m-2"> Emailingizni qoldiring</p>
+                    <input placeholder="email@gmail.com" class="w-96 m-2 rounded-lg h-12 bg-gray-500 text-white">
+                </div>
+
+                <div class="rounded-lg m-12 mx-auto flex flex-col">
+                    <label class="text-white m-2" for="mavzu"> Mavzu</label>
+                    <select id=" subjekt" class="w-96 m-2 rounded-lg h-12 bg-gray-500 text-gray-400">
+                        <option value=""> Mavzu tanlang</option>
+                    </select>
+                </div>
+
+                <div class="rounded-lg mx-auto">
+                    <p class="text-white m-2"> Xabaringizni yozing </p>
+                    <input placeholder=" Xabaringizni yozing " class="w-96 m-2 rounded-lg h-32 bg-gray-500 text-white">
+                </div>
+
+                <div class=" grid grid-cols-1 mx-auto max-6xl text-white text-center">
+                    <button class="border-2 w-40 mx-auto m-4 rounded-lg bg-blue-600 hover:bg-yellow-500">Xabaringizni
+                        yozing</button>
+                    <textarea name="" id="" class="h-32"></textarea>
+                </div>
+            </div>
+
+            <div class=" h-[1200px] bg-gray-800 rounded-lg m-12 mx-auto ">
+                <h1 class="text-3xl text-white m-12"> Biz bilan bog'lanish</h1>
+                <p class="text-white m-12">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id accusantium iure
+                    adipisci provident labore. Consectetur adipisci laboriosam earum!</p>
+                <div class=" w-[600px] h-[150px] bg-gray-700 rounded-lg text-white m-10 p-6 flex flex-col">
+                    📍Manzilim
+                    <div class="">
+                        <p class="grid grid-cols-1 m-2"> Toshkent shahar, Mirzo Ulug'bek tumani, Universet ko'chasi
+                            45-uy </p>
+                    </div>
+                </div>
+
+                <div class=" w-[600px] h-[150px] bg-gray-700 rounded-lg text-white m-10 p-6 flex flex-col">
+                    📲Telefon raqamim
+                    <p class="grid grid-cols-3 m-2"> +998 91 552 82 30 +998 88 552 82 30 </p>
+                </div>
+
+                <div class=" w-[600px] h-[150px] bg-gray-700 rounded-lg text-white m-10 p-6 flex flex-col">
+                    🕵️Email manzillar
+                    <p class="grid grid-cols-3 m-2"> ziyaqulovmashxurbek@gmail.com ziyaqulovmashxurbek94@gmail.com
+                        ziyaqulovmashxurbek98@gmail.com</p>
+                </div>
+
+                <div class=" w-[600px] h-[100px] bg-gray-700 rounded-lg text-white m-10 p-6 flex flex-col">
+                    🌍Ijtimoiy tarmoqlar
+                    <p class="grid grid-cols-1 m-2"> Facebook Telegram Instagram</p>
+                </div>
+                <div class=" w-[600px] h-[260px] bg-gray-700 rounded-lg text-white m-10 p-6 flex flex-col">
+                    Tez-tez beriladigan savollr
+                    <p class="grid grid-cols-1 m-4"> Lorem impus dolor sit amet ipsum dolor sit amet consectetur
+                        adipisicing elit. Ipsum pariatur molestiae delectus exercitationem, consequatur recusandae,
+                        corporis iste natus aspernatur, provident quis quisquam in unde modi omnis atque hic eligendi
+                        officia! Lorem ipsum dolor sit amet, consectetur adipisicing elit sapiente laudantium obcaecati
+                        maiores!</p>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="h-[400px] rounded-lg bg-gray-600 mx-auto max-6xl w-[1270px]">
+            <h1 class="text-4xl text-white m-10"> Bizning joylashuvimiz</h1>
+            <iframe class="bg-gray-600 mx-auto w-[700px] max-6xl h-[280px]"
+                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d335.36005999300795!2d67.09968234518045!3d39.69525474898947!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2s!4v1770460709408!5m2!1sen!2s"
+                width="200" height="200" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+    </main>
+
+</body>
+
+</html>
